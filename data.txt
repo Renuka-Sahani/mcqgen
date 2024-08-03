@@ -1,5 +1,43 @@
-Biology is the scientific study of life.[1][2][3] It is a natural science with a broad scope but has several unifying themes that tie it together as a single, coherent field.[1][2][3] For instance, all organisms are made up of cells that process hereditary information encoded in genes, which can be transmitted to future generations. Another major theme is evolution, which explains the unity and diversity of life.[1][2][3] Energy processing is also important to life as it allows organisms to move, grow, and reproduce.[1][2][3] Finally, all organisms are able to regulate their own internal environments.[1][2][3][4][5]
+Planning and decision-making
+An "agent" is anything that perceives and takes actions in the world. A rational agent has goals or preferences and takes actions to make them happen.[d][37] In automated planning, the agent has a specific goal.[38] In automated decision-making, the agent has preferences—there are some situations it would prefer to be in, and some situations it is trying to avoid. The decision-making agent assigns a number to each situation (called the "utility") that measures how much the agent prefers it. For each possible action, it can calculate the "expected utility": the utility of all possible outcomes of the action, weighted by the probability that the outcome will occur. It can then choose the action with the maximum expected utility.[39]
 
-Biologists are able to study life at multiple levels of organization,[1] from the molecular biology of a cell to the anatomy and physiology of plants and animals, and evolution of populations.[1][6] Hence, there are multiple subdisciplines within biology, each defined by the nature of their research questions and the tools that they use.[7][8][9] Like other scientists, biologists use the scientific method to make observations, pose questions, generate hypotheses, perform experiments, and form conclusions about the world around them.[1]
+In classical planning, the agent knows exactly what the effect of any action will be.[40] In most real-world problems, however, the agent may not be certain about the situation they are in (it is "unknown" or "unobservable") and it may not know for certain what will happen after each possible action (it is not "deterministic"). It must choose an action by making a probabilistic guess and then reassess the situation to see if the action worked.[41]
 
-Life on Earth, which emerged more than 3.7 billion years ago,[10] is immensely diverse. Biologists have sought to study and classify the various forms of life, from prokaryotic organisms such as archaea and bacteria to eukaryotic organisms such as protists, fungi, plants, and animals. These various organisms contribute to the biodiversity of an ecosystem, where they play specialized roles in the cycling of nutrients and energy through their biophysical environment.
+In some problems, the agent's preferences may be uncertain, especially if there are other agents or humans involved. These can be learned (e.g., with inverse reinforcement learning), or the agent can seek information to improve its preferences.[42] Information value theory can be used to weigh the value of exploratory or experimental actions.[43] The space of possible future actions and situations is typically intractably large, so the agents must take actions and evaluate situations while being uncertain of what the outcome will be.
+
+A Markov decision process has a transition model that describes the probability that a particular action will change the state in a particular way and a reward function that supplies the utility of each state and the cost of each action. A policy associates a decision with each possible state. The policy could be calculated (e.g., by iteration), be heuristic, or it can be learned.[44]
+
+Game theory describes the rational behavior of multiple interacting agents and is used in AI programs that make decisions that involve other agents.[45]
+
+Learning
+Machine learning is the study of programs that can improve their performance on a given task automatically.[46] It has been a part of AI from the beginning.[e]
+
+There are several kinds of machine learning. Unsupervised learning analyzes a stream of data and finds patterns and makes predictions without any other guidance.[49] Supervised learning requires a human to label the input data first, and comes in two main varieties: classification (where the program must learn to predict what category the input belongs in) and regression (where the program must deduce a numeric function based on numeric input).[50]
+
+In reinforcement learning, the agent is rewarded for good responses and punished for bad ones. The agent learns to choose responses that are classified as "good".[51] Transfer learning is when the knowledge gained from one problem is applied to a new problem.[52] Deep learning is a type of machine learning that runs inputs through biologically inspired artificial neural networks for all of these types of learning.[53]
+
+Computational learning theory can assess learners by computational complexity, by sample complexity (how much data is required), or by other notions of optimization.[54]
+
+Natural language processing
+Natural language processing (NLP)[55] allows programs to read, write and communicate in human languages such as English. Specific problems include speech recognition, speech synthesis, machine translation, information extraction, information retrieval and question answering.[56]
+
+Early work, based on Noam Chomsky's generative grammar and semantic networks, had difficulty with word-sense disambiguation[f] unless restricted to small domains called "micro-worlds" (due to the common sense knowledge problem[34]). Margaret Masterman believed that it was meaning and not grammar that was the key to understanding languages, and that thesauri and not dictionaries should be the basis of computational language structure.
+
+Modern deep learning techniques for NLP include word embedding (representing words, typically as vectors encoding their meaning),[57] transformers (a deep learning architecture using an attention mechanism),[58] and others.[59] In 2019, generative pre-trained transformer (or "GPT") language models began to generate coherent text,[60][61] and by 2023, these models were able to get human-level scores on the bar exam, SAT test, GRE test, and many other real-world applications.[62]
+
+Perception
+Machine perception is the ability to use input from sensors (such as cameras, microphones, wireless signals, active lidar, sonar, radar, and tactile sensors) to deduce aspects of the world. Computer vision is the ability to analyze visual input.[63]
+
+The field includes speech recognition,[64] image classification,[65] facial recognition, object recognition,[66]object tracking,[67] and robotic perception.[68]
+
+Social intelligence
+
+Kismet, a robot head which was made in the 1990s; a machine that can recognize and simulate emotions[69]
+Affective computing is an interdisciplinary umbrella that comprises systems that recognize, interpret, process, or simulate human feeling, emotion, and mood.[70] For example, some virtual assistants are programmed to speak conversationally or even to banter humorously; it makes them appear more sensitive to the emotional dynamics of human interaction, or to otherwise facilitate human–computer interaction.
+
+However, this tends to give naïve users an unrealistic conception of the intelligence of existing computer agents.[71] Moderate successes related to affective computing include textual sentiment analysis and, more recently, multimodal sentiment analysis, wherein AI classifies the affects displayed by a videotaped subject.[72]
+
+General intelligence
+A machine with artificial general intelligence should be able to solve a wide variety of problems with breadth and versatility similar to human intelligence.[16]
+
+Techniques
