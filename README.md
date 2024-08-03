@@ -15,13 +15,13 @@ For Deployment
 
 5. update the machine:
 
- sudo apt update
+sudo apt update
 
- sudo apt-get update
+sudo apt-get update
 
- sudo apt upgrade -y
+sudo apt upgrade -y
 
- sudo apt install git curl unzip tar make sudo vim wget -y
+sudo apt install git curl unzip tar make sudo vim wget -y
 
 git clone "Your-repository"
 
@@ -31,15 +31,15 @@ pip3 install -r requirements.txt
 
 python3 -m streamlit run StreamlitAPP.py
 
-##### if you want to add openai api key
+if you want to add openai api key
 
 1. create .env file in your server
 touch .env
 
 vi .env
-#press insert
-#copy your api key and paste it there
-#press and then :wq and hit enter
+press insert
+copy your api key and paste it there
+press and then :wq and hit enter
 
 go with security and add the inbound rule
 add the port 8501
