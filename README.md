@@ -2,4 +2,4 @@
 
 ## MCQ Generator Results
 
-![App Screenshot](results/streamlit-StreamlitApp-2024-08-03-09-08-09.webm)
+[![Watch the video](https://img.youtube.com/vi/XsPu34gRcZ8/0.jpg)](https://youtu.be/XsPu34gRcZ8)
